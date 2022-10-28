@@ -1,0 +1,48 @@
+/*body {
+  background-color: grey;
+}
+on utilise ; POUR LA CLASSE , SANS POINT POUR LABALISE */
+
+/*
+*
+header
+*
+
+*/
+body {
+  background-color: grey;
+}
+.header {
+  background-color: white;
+  /* #ffffff ou rgba(255,255,255,0.5) a = couche de transparence alpha entre à et 1*/
+  /*opacity: 0.75;*/
+  display: flex; /* par defaut le flex est flex raw*/
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.header__image {
+  width: 100px;
+}
+
+.header__link {
+  padding: 10px 20px; /*10px 20px 10px 20px;haut droitebas gauche */
+  border-radius: 10px;
+  font-weight: 600; /** au lieu d utiliser mots utiliser (bolder lighter)les valeurs: 600= bold*/
+  font-family: "Raleway", sans-serif;
+
+  /*font-family: Arial, Helvetica, sans-serif; /*police par defaut sur web, on n utilise pas dans le design*/
+}
+
+.header__link--blue {
+  /* modifier*/
+  background-color: #2e94fa;
+  color: #ffffff;
+}
+
+.header__link--grey {
+  background-color: #f4f4f4f4;
+  color: #2e94fa;
+}

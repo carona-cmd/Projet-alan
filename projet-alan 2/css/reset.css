@@ -1,0 +1,27 @@
+/* je teste que reset est bien connecté ; body {
+  background-color: blue;
+}*/
+
+/*body, p,div,h1 :: cela veut dire je stsylise tous mes élements
+ou on utilise * veut dire tous les elemnts */
+/* 
+* {
+  border: solid 20px black;
+}
+ on va effacer les margin et les padding par défaut*/
+/*https://www.w3schools.com/colors/colors_rgb.asp*/
+
+/* backgroundcolor: red !important; css ne peut pas changer la lecteure a^res important
+
+reset c est pour effacer les styles par defaut */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: black; /* on peut mettre initial ou inherit : herite de tonparent*/
+  text-decoration: none; /*je ne veux pas que tu sois souligné par default
+  inherit : prend la couleur du parent , si on a un pragraphe en blanc 
+  il prend la couleur du parent*/
+}
